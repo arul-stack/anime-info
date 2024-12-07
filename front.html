@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Anime Info - Discover exciting details and information about your favorite anime series.">
+    <meta name="author" content="Anime Info">
+    <meta property="og:title" content="Anime Info">
+    <meta property="og:description" content="Discover exciting details and information about your favorite anime series.">
+    <title>Anime Info</title>
+    <link rel="stylesheet" type="text/css" href="colout.css">
+</head>
+<body>
+    <div class="menu-container">
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="menu" id="menu">
+            <a href="front.html"><br>Home</a>
+            <hr>
+            <a href="recentlyupdated.html">Recently Updated</a>
+            <hr>
+            <a href="aboutus.html">About Us &nbsp;<br></a>
+        </div>
+    </div>
+    <button id="cornerButton" class="top-right" onclick="goToPage()">Sign up | login</button>
+    <br><br><hr>
+    <center>
+        <h1>Anime's Info</h1>
+        <div class="search-container">
+            <input type="text" id="search-bar" placeholder="Search for animes...">
+            <button onclick="searchAnimes()">Search</button>
+        </div>
+        <h3>If you enjoy the website, please consider sharing it with your friends. Thank you!</h3>
+        <p>This webpage is fully filled with anime content, so don't expect any other info or details from this webpage.</p>
+        <div>
+            <img src="Images/Animepic.jpg" alt="Anime Info" width="300px"> 
+            <img src="Images/Animepic1.jpg" alt="Anime Info" width="300px">
+        </div>
+        <h2>Filled with Animes information . In upcoming days, more and more exciting information will be uploaded.</h2>
+    </center>
+    
+    <h3>Most viewed Animes</h3>
+    <div id="anime-list">
+        <div class="anime-container">
+            <a href="Naruto.html"><img src="Images/classic.jpg" alt="Naruto cover image"></a>
+            <a href="Naruto.html">NARUTO</a>
+            <p><strong>Genre:</strong> Action, Adventure</p>
+            <p><strong>Release Date:</strong> 2002</p>
+        </div>
+        <div class="anime-container">
+            <a href="Narutoshippuden.html"><img src="Images/shippuden.jpg" alt="Naruto Shippuden cover image"></a>
+            <a href="Narutoshippuden.html">NARUTO SHIPPUDEN</a>
+            <p><strong>Genre:</strong>Action, Adventure</p>
+            <p><strong>Release Date:</strong>2007</p>
+        </div>
+        <div class="anime-container">
+            <a href="Beyblade.html"><img src="Images/beybladeburst.jpg" alt="Beyblade cover image"></a>
+            <a href="Beyblade.html">BEYBLADE</a>
+            <p><strong>Genre:</strong> Action, Sci-Fi</p>
+            <p><strong>Release Date:</strong> 2017</p>
+        </div>
+        <div class="anime-container">
+            <a href="Demonslayer.html"><img src="Images/demonslayer.jpg" alt="Demon Slayer cover image"></a>
+            <a href="Demonslayer.html">DEMON SLAYER</a>
+            <p><strong>Genre:</strong> Action, Fantasy</p>
+            <p><strong>Release Date:</strong> 2019</p>
+        </div>
+        <div class="anime-container">
+            <a href="Jujutsu.html"><img src="Images/jujutsu1.jpg" alt="Jujutsu Kaisen cover image"></a>
+            <a href="Jujutsu.html">JUJUTSU KAISEN</a>
+            <p><strong>Genre:</strong> Action, Supernatural</p>
+            <p><strong>Release Date:</strong> 2020</p>
+        </div>
+        <div class="anime-container">
+            <a href="OnePiece.html"><img src="Images/onepiece.jpg" alt="One Piece cover image"></a>
+            <a href="OnePiece.html">ONE PIECE</a>
+            <p><strong>Genre:</strong> Action, Adventure</p>
+            <p><strong>Release Date:</strong> 1999</p>
+        </div>
+        <div class="anime-container">
+            <a href="AttackOnTitan.html"><img src="Images/attack1.jpg" alt="Attack on Titan cover image"></a>
+            <a href="AttackOnTitan.html">ATTACK ON TITAN</a>
+            <p><strong>Genre:</strong> Action, Horror</p>
+            <p><strong>Release Date:</strong> 2013</p>
+        </div>
+        <div class="anime-container">
+            <a href="MyHeroAcedemia.html"><img src="Images/myheroacademia.jpg" alt="My Hero Academia cover image"></a>
+            <a href="MyHeroAcedemia.html">MY HERO ACADEMIA</a>
+            <p><strong>Genre:</strong> Action, Superhero</p>
+            <p><strong>Release Date:</strong> 2016</p>
+        </div>
+        <div class="anime-container">
+            <a href="DragonBallZ.html"><img src="Images/dragonballZ.jpg" alt="Dragon Ball Z cover image"></a>
+            <a href="DragonBallZ.html">DRAGON BALL Z</a>
+            <p><strong>Genre:</strong> Action, Martial Arts</p>
+            <p><strong>Release Date:</strong> 1989</p>
+        </div>
+        <div class="anime-container">
+            <a href="DeathNote.html"><img src="Images/deathnote.jpg" alt="Death Note cover image"></a>
+            <a href="DeathNote.html">DEATH NOTE</a>
+            <p><strong>Genre:</strong> Mystery, Psychological</p>
+            <p><strong>Release Date:</strong> 2006</p>
+        </div>
+        <div class="anime-container">
+            <a href="Bleach.html"><img src="Images/bleach.jpg" alt="Bleach cover image"></a>
+            <a href="Bleach.html">BLEACH</a>
+            <p><strong>Genre:</strong> Action, Supernatural</p>
+            <p><strong>Release Date:</strong> 2004</p>
+        </div>
+        <div class="anime-container">
+            <a href="TokyoGhoul.html"><img src="Images/tokyoghoul.jpg" alt="Tokyo Ghoul cover image"></a>
+            <a href="TokyoGhoul.html">TOKYO GHOUL</a>
+            <p><strong>Genre:</strong> Action, Horror</p>
+            <p><strong>Release Date:</strong> 2014</p>
+        </div>
+        <div class="anime-container">
+            <a href="Sololeveling.html"><img src="Images/solo.jpg" alt="solo leveling cover image"></a>
+            <a href="Sololeveling.html">SOLO LEVELING</a>
+            <p><strong>Genre:</strong>Action, Adventure</p>
+            <p><strong>Release Date:</strong> 2024</p>
+        </div>
+        <div class="anime-container">
+            <a href="boruto.html"><img src="Images/boruto1.jpg" alt="Boruto cover Image" width="200px"></a>
+            <a href="boruto.html">BOURTO<br>NARUTO NEXT GENERATIONS</a>
+            <p><strong>Genre:</strong>Action, Adventure</p>
+            <p><strong>Release Date:</strong>2017</p>
+        </div>
+        <div class="anime-container">
+            <a href="blackcover.html"><img src="Images/blackclover.jpg" alt="Blackclover"></a>
+            <a href="blackcover.html">BLACK CLOVER</a>
+            <p><strong>Genre:</strong>Action, Adventure</p>
+            <p><strong>Release Date:</strong>2015</p>
+        </div>
+        <div class="anime-container">
+            <a href="spyxfmaily.html"><img src="Images/spyxfamily.jpg" alt="Spy X family cover Image"></a>
+            <a href="spyxfmaily.html">SPY X FAMILY</a>
+            <p><strong>Genre:</strong>Action, Comedy</p>
+            <p><strong>Release Date:</strong>2022</p>
+        </div>
+        <div class="anime-container">
+            <a href="onepunchman.html"><img src="Images/onepunchman.jpg" alt="One Punch Man cover Image"></a>
+            <a href="onepunchman.html">ONE PUNCH MAN</a>
+            <p><strong>Genre:</strong>Action, Adventure</p>
+            <p><strong>Release Date:</strong>2015</p>
+        </div>
+        <div class="anime-container">
+            <a href="chainsawman.html"><img src="Images/chainsawman.jpg" alt=""></a>
+            <a href="chainsawman.html">CHAINSAW MAN</a>
+            <p><strong>Genre:</strong>Action, Adventure</p>
+            <p><strong>Release Date:</strong>20</p>
+        </div>
+        <div class="anime-container">
+            <a href="tokyorevengers.html"><img src="Images/Tokyorevengers.jpg" alt="Tokyo Revengers"></a>
+            <a href="tokyorevengers.html">TOKYO REVENGERS</a>
+            <p><strong>Genre:</strong>Action, Adventure</p>
+            <p><strong>Release Date:</strong>2017</p>
+        </div>
+        <div class="anime-container">
+            <a href="vinlandsaga.html"><img src="Images/vinlandsaga.jpg" alt="Vinland saga"></a>
+            <a href="vinlandsaga.html">VINLAND SAGA</a>
+            <p><strong>Genre:</strong>Action, Adventure</p>
+            <p><strong>Release Date:</strong>2019</p>
+        </div>
+    </div>
+    
+    <center>
+        <h3>For more exciting info, follow us</h3>
+        <h3>SUPPORT US🤝🏻<br></h3>
+        <hr>
+        <footer>
+            <h2>&copy; 2024 Anime's Info - All rights reserved</h2>
+            <p>Made with love❤️for Anime Lovers</p>
+            <h3>Contact us</h3>
+            <h4>Email: animesinfo@gmail.com<br>Follow us on Instagram: anime_info<br></h4>
+        </footer>
+    </center>
+
+    <script src="java.js"></script>
+</body>
+</html>
